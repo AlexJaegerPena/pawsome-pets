@@ -5,7 +5,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-
 /* ---- section 1 ---- */
 
 body {
@@ -26,11 +25,12 @@ h3 {
   background-color: #3f7bb5;
 }
 
-.header-logo {}
-
-.logo-text {
-  padding
+.header-logo {
 }
+
+/* .logo-text {
+  padding
+} */
 
 .navbar {
   position: sticky;
@@ -50,9 +50,9 @@ h3 {
   transition: 0.4;
 }
 
-.nav-li:hover{
+.nav-li:hover {
   cursor: pointer;
-  transform:scale(1.1);
+  transform: scale(1.1);
 }
 
 /* ---- section 2 ---- */
@@ -119,12 +119,9 @@ h3 {
   transition: 0.4s;
 }
 
-
-
-  
-.section2-btn:hover{
+.section2-btn:hover {
   cursor: pointer;
-  transform:scale(1.1) ;
+  transform: scale(1.1);
   background-color: #488ccc;
 }
 
@@ -155,10 +152,11 @@ h3 {
   padding: 2vw 10vw 2vw 50vw;
 }
 
+/* ---- section 4 ---- */
+
 .section4 {
   color: #427ab4;
   padding: 2%;
-
   height: auto;
   background-color: #f5efe4;
   text-align: center;
@@ -167,16 +165,15 @@ h3 {
 }
 
 .img-section4 {
-  display: flex;
   flex-direction: column;
   background-color: #ffae12;
   color: white;
   font-size: 15px;
-  padding: 3px;
+  padding: 5px;
   border-radius: 10px;
   margin-bottom: 20px;
   width: 150px;
-  height: 300px;
+  height: auto;
   filter: drop-shadow(0px 1px 5px black);
 }
 
@@ -186,30 +183,73 @@ h3 {
   justify-content: center;
 }
 
+/* ---- section 5 ---- */
+
 .section5 {
-  display: flex;
-  max-width: 1920px;
-  max-height: 600px;
+  color: #ffae12;
   width: auto;
   height: auto;
   background-color: #f5f5f5;
 }
 
-.section6 {
+.section5 h3 {
+  text-align: center;
+  color: #427ab4;
+}
+
+.section5-cards {
   display: flex;
+}
+.img-section5 {
+  background-color: white;
+  color: #002953;
+
+  font-size: smaller;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: auto;
+  filter: drop-shadow(0px 1px 5px black);
+}
+/* ---- section 6 ---- */
+
+.section6 {
+  padding: 2%;
   width: auto;
   height: auto;
   background-color: #ffae12;
+  color: white;
+  text-align: center;
+}
+
+.section6-grid {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.section6 img {
+  height: 150px;
+  width: 150px;
 }
 
 .section7 {
-  display: flex;
-  max-width: 1920px;
-  max-height: 600px;
+  color: #002953;
   width: auto;
-  height: auto;
+  font-size: smaller;
   background-color: #f5efe4;
 }
+
+.section7 h3 {
+  color: #427ab4;
+}
+
+.section7-cards {
+  display: flex;
+}
+
 .section10 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: rgb(64, 64, 231);
