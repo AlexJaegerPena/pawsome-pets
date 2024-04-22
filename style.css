@@ -327,7 +327,7 @@ h3 {
 }
 .section9-1 img{
   width: 20rem;
-  display: block;
+
   margin: auto;
 }
 
@@ -346,11 +346,42 @@ h3 {
 #form9 input, textarea{
   border-radius: 1rem;
   border: none;
- 
 }
 
 #sec9-sub{
   text-align: center;
   background-color: yellow;
   padding: 0.3rem 0.8rem;
+}
+
+.section8{
+  background-image: url("./pics/yellow_paws.png");
+ 
+  margin-bottom: 1rem;
+  
+}
+.section8 h2{
+  text-align: center;
+}
+.section8 section{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.sec8-a{
+  background-color: #9ec5ee;
+  padding: 1rem;
+  width: 12rem;
+  border-radius: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+.sec8-a h5{
+  color: white;
+}
+
+.sec8-a p{
+  color: rgb(64, 64, 231);
+  font-size: 0.7rem;
 }
