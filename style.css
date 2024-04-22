@@ -7,7 +7,7 @@
 
 
 /* ---- section 1 ---- */
-=======
+
 body {
   margin-left: 10%;
   margin-right: 10%;
@@ -218,6 +218,7 @@ h3 {
   display: grid;
   column-gap: 0.5rem;
   grid-template-columns: 1fr 1fr 1fr 2fr;
+  margin-top: 2rem;
 
 }
 
@@ -259,8 +260,8 @@ h3 {
 }
 #foot-sub {
   text-align: center;
-  margin-top: 1rem;
-  width: 5rem;
+  margin: 0.5rem;
+  width: 4rem;
   display: block;
 
   padding: 0.5rem 0;
@@ -272,4 +273,44 @@ h3 {
 
 .footer-sections {
   font-size: 0.8em;
+}
+
+.section9 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.section9-1{
+  max-width: 30rem;
+  
+}
+.section9-1 img{
+  width: 20rem;
+  display: block;
+  margin: auto;
+}
+
+.section9-2 {
+  background-color: #7eafe4;
+  padding: 1rem;
+  border-radius: 2rem;
+  max-width: 15rem;
+  margin: auto;
+}
+
+.section9-2 h2{
+  text-align: center;
+}
+
+#form9 input, textarea{
+  border-radius: 1rem;
+  border: none;
+ 
+}
+
+#sec9-sub{
+  text-align: center;
+  background-color: yellow;
+  padding: 0.3rem 0.8rem;
 }
