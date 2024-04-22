@@ -5,6 +5,9 @@
   font-family: "Poppins", sans-serif;
 }
 
+
+/* ---- section 1 ---- */
+=======
 body {
   margin-left: 10%;
   margin-right: 10%;
@@ -19,14 +22,14 @@ h3 {
   top: 0px;
 }
 
-/* ---- section 1 ---- */
-
 .section1 {
   background-color: #3f7bb5;
-  height: 8vw;
 }
 
-.header-logo {
+.header-logo {}
+
+.logo-text {
+  padding
 }
 
 .navbar {
@@ -38,24 +41,58 @@ h3 {
   justify-content: center;
   gap: 10vw;
   font-weight: 600;
-  /* margin-top: 2vw; */
+  padding-bottom: 1vw;
 }
 
 .nav-li {
   /* font-size: 23px; */
   font-size: 1.1vw;
+  transition: 0.4;
+}
+
+.nav-li:hover{
+  cursor: pointer;
+  transform:scale(1.1);
 }
 
 /* ---- section 2 ---- */
 
 .section2-img {
   width: 100;
-  align-items: right;
 }
+
+/* .section2-heading {
+  color: white;
+  font-size: 2.5vw;
+  margin-top: -20vw;
+  margin-left: 12vw;
+} */
+
+/* .section2-claim {
+  color: white;
+  font-size: 1.2vw;
+  margin-left: 12vw;
+  margin-top: 3vw;
+} */
+
+/* .section2-btn {
+  margin-top: 4vw;
+  margin-left: 15vw;
+  background-color: #3f7bb5;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  width: 18vw;
+  height: 2.1vw;
+  font-size: 0.9vw;
+  font-weight: 500;
+  transition: 0.4s;
+} */
+
+/* ---- alternative header ---- */
 
 .section2-heading {
   color: white;
-  /* font-size: 40px; */
   font-size: 2.5vw;
   margin-top: -20vw;
   margin-left: 12vw;
@@ -63,10 +100,9 @@ h3 {
 
 .section2-claim {
   color: white;
-  /* font-size: 20px; */
-  font-size: 1vw;
+  font-size: 1.2vw;
   margin-left: 12vw;
-  margin-top: 5vw;
+  margin-top: 3vw;
 }
 
 .section2-btn {
@@ -76,10 +112,20 @@ h3 {
   color: white;
   border-radius: 20px;
   border-style: none;
-  width: 16vw;
-  height: 2vw;
+  width: 18vw;
+  height: 2.1vw;
   font-size: 0.9vw;
   font-weight: 500;
+  transition: 0.4s;
+}
+
+
+
+  
+.section2-btn:hover{
+  cursor: pointer;
+  transform:scale(1.1) ;
+  background-color: #488ccc;
 }
 
 /* ---- section 3 ---- */
@@ -88,8 +134,8 @@ h3 {
   background-color: #f5f5f5;
 }
 .section3-img {
-  width: 40%;
-  margin-top: 7vw;
+  width: 40vw;
+  margin-top: 11vw;
   margin-left: 6vw;
 }
 
