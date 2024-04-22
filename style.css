@@ -2,6 +2,106 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  padding: 20px 0 20px 0;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+}
+
+/* ---- section 1 ---- */
+
+.section1 {
+  background-color: #3f7bb5;
+  height: 8vw;
+}
+
+.header-logo {
+}
+
+.navbar {
+  position: sticky;
+  list-style: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw;
+  font-weight: 600;
+  /* margin-top: 2vw; */
+}
+
+.nav-li {
+  /* font-size: 23px; */
+  font-size: 1.1vw;
+}
+
+/* ---- section 2 ---- */
+
+.section2-img {
+  width: 100;
+  align-items: right;
+}
+
+.section2-heading {
+  color: white;
+  /* font-size: 40px; */
+  font-size: 2.5vw;
+  margin-top: -20vw;
+  margin-left: 12vw;
+}
+
+.section2-claim {
+  color: white;
+  /* font-size: 20px; */
+  font-size: 1vw;
+  margin-left: 12vw;
+  margin-top: 5vw;
+}
+
+.section2-btn {
+  margin-top: 4vw;
+  margin-left: 15vw;
+  background-color: #3f7bb5;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  width: 16vw;
+  height: 2vw;
+  font-size: 0.9vw;
+  font-weight: 500;
+}
+
+/* ---- section 3 ---- */
+
+.section3 {
+  background-color: #f5f5f5;
+}
+.section3-img {
+  width: 40%;
+  margin-top: 7vw;
+  margin-left: 6vw;
+}
+
+.section3 h2 {
+  color: #3f7bb5;
+  font-size: 30px;
+  font-size: 2vw;
+  text-align: right;
+  margin-top: -33svw;
+  margin-right: 20vw;
+}
+
+.section3 p {
+  color: #002953;
+  font-size: 20px;
+  font-size: 1vw;
+  padding: 2vw 10vw 2vw 50vw;
 }
 
 .section4 {
@@ -16,9 +116,7 @@
   /* background-image: url(./pics/dark_blue_paws.png); */
 }
 
-h3 {
-  padding: 20px 0 20px 0;
-}
+
 
 .img-section4 {
   display: flex;
@@ -63,4 +161,61 @@ h3 {
   width: auto;
   height: auto;
   background-color: #f5efe4;
+}
+.section10 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(64, 64, 231);
+  color: white;
+  padding: 1rem;
+  display: grid;
+  column-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  column-gap: 1.5rem;
+  grid-template-columns: 25% 25% 15% 35%;
+}
+
+.address a {
+  color: white;
+  text-decoration: none;
+}
+
+.address a:hover {
+  text-decoration: underline;
+}
+
+.pages {
+  list-style-type: none;
+}
+.pages a{
+  color: white;
+  text-decoration: none;
+
+}
+
+.pages a:hover {
+  text-decoration: underline;
+
+}
+
+#copyright{
+  grid-column: 1/span 4;
+  text-align: center;
+  background-color: yellow;
+  color: black;
+  padding: 1rem;
+}
+
+.foot-inp {
+  padding: 0.4rem 0.8rem;
+  margin: 0.2rem 0;
+  border-radius: 0.7rem;
+  font-size: 1rem;
+  border: none;
+
+}
+.foot-inp[type='submit'] {
+  background-color: yellow;
+  display: block;
+  padding: 0.4rem 2rem;
+  align-items: center;
 }
