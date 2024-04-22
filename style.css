@@ -252,7 +252,7 @@ h3 {
 
 .section10 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(64, 64, 231);
+  background-color: #3f7bb5;;
   color: white;
   padding: 1rem;
   display: grid;
@@ -281,12 +281,13 @@ h3 {
 
 .pages a:hover {
   text-decoration: underline;
+  background-color: #16569b;
 }
 
 #copyright{
   grid-column: 1/5;
   text-align: center;
-  background-color: yellow;
+  background-color: #ffae12;
   color: black;
   padding: 1rem;
 }
@@ -307,7 +308,7 @@ h3 {
   padding: 0.5rem 0;
   border-radius: 1rem;
   border: none;
-  background-color: yellow;
+  background-color: #ffae12;
 }
 
 
@@ -319,6 +320,8 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 2rem;
+  color: rgb(64, 64, 231);
+  font-size: 0.8rem;
 }
 
 .section9-1{
@@ -332,7 +335,7 @@ h3 {
 }
 
 .section9-2 {
-  background-color: #7eafe4;
+  background-color: #9ec5ee;
   padding: 1rem;
   border-radius: 2rem;
   max-width: 15rem;
@@ -350,7 +353,7 @@ h3 {
 
 #sec9-sub{
   text-align: center;
-  background-color: yellow;
+  background-color: #ffae12;
   padding: 0.3rem 0.8rem;
 }
 
@@ -365,7 +368,7 @@ h3 {
 }
 .section8 section{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 
@@ -384,4 +387,26 @@ h3 {
 .sec8-a p{
   color: rgb(64, 64, 231);
   font-size: 0.7rem;
+}
+
+@media screen and (max-width: 800px ) {
+
+  .section10 {
+    grid-template-columns: 2fr 2fr 1fr;
+  }
+  .footer-flex{
+    grid-column: 1/5;
+  }
+}
+
+@media screen and (max-width: 500px ) {
+
+  .section10 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-flex, .foot-navigation{
+    grid-column: 1/5;
+  }
+
+  
 }
