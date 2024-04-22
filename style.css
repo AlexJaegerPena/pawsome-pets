@@ -5,19 +5,22 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* ---- section 1 ---- */
+
 .header {
   position: sticky;
   top: 0px;
 }
 
-/* ---- section 1 ---- */
-
 .section1 {
   background-color: #3f7bb5;
-  height: 8vw;
 }
 
 .header-logo {
+}
+
+.logo-text {
+  padding
 }
 
 .navbar {
@@ -29,7 +32,7 @@
   justify-content: center;
   gap: 10vw;
   font-weight: 600;
-  /* margin-top: 2vw; */
+  padding-bottom: 2vw;
 }
 
 .nav-li {
@@ -98,4 +101,42 @@
   font-size: 20px;
   font-size: 1vw;
   padding: 2vw 10vw 2vw 50vw;
+}
+.section10 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(64, 64, 231);
+  color: white;
+  padding: 1rem;
+  display: grid;
+  column-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+}
+
+.address a {
+  color: white;
+  text-decoration: none;
+}
+
+.address a:hover {
+  text-decoration: underline;
+}
+
+.pages {
+  list-style-type: none;
+}
+.pages a {
+  color: white;
+  text-decoration: none;
+}
+
+.pages a:hover {
+  text-decoration: underline;
+}
+
+#copyright {
+  grid-column: 1 / span 4;
+  text-align: center;
+  background-color: yellow;
+  color: black;
+  padding: 1rem;
 }
