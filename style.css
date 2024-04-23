@@ -597,7 +597,7 @@ address > #a3::before {
 .section9-1 img {
   margin: 0 auto;
   max-width: 30rem;
-  padding-left: 3rem;
+  
 }
 
 .section9-2 {
@@ -633,15 +633,16 @@ textarea {
 
 .section8 {
   background-image: url("./pics/yellow_paws.png");
-
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .section8 h2 {
   text-align: center;
 }
 .section8 section {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
 }
 
 .sec8-a {
@@ -651,6 +652,7 @@ textarea {
   border-radius: 1rem;
   text-align: center;
   padding-top: 2rem;
+  margin-bottom: 1rem;
 }
 .sec8-a h5 {
   color: white;
@@ -668,6 +670,12 @@ textarea {
   .footer-flex {
     grid-column: 1/5;
   }
+  .section8 section {
+    grid-template-columns: 1fr 1fr;
+  }
+  .article3-8{
+    grid-column: 1/4;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -682,5 +690,25 @@ textarea {
   }
   #foot-sub {
     display: inline;
+  }
+  .section8 section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .article2-8{
+    grid-column: 1/4;
+    justify-content: center;
+  }
+  .section9-1 img {
+    margin: 0 auto;
+    max-width: 20rem;
+    
+  }
+}
+@media screen and (max-width: 430px) {
+  .avaible{
+    grid-column: 1/5;
+    margin-top: 1rem;
   }
 }
