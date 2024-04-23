@@ -259,6 +259,16 @@ h3 {
   margin-top: 2rem;
 
 }
+address > #a1::before{
+  content: "🗺️: ";
+}
+address > #a2::before{
+  content: "📧: ";
+}
+
+address > #a3::before{
+  content: "📞: ";
+}
 
 .address a {
   color: white;
@@ -289,6 +299,7 @@ h3 {
   color: black;
   padding: 1rem;
 }
+
 
 
 #foot-inp{
