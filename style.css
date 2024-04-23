@@ -25,8 +25,6 @@ h3 {
   background-color: #3f7bb5;
 }
 
-.header-logo {
-}
 
 /* .logo-text {
   padding
@@ -346,9 +344,17 @@ h3 {
   text-align: center;
 }
 
+.section9-2 a{
+  text-decoration: none;
+  color: rgb(64, 64, 231);
+}
+.section9-2 a:hover{
+  text-decoration: underline;
+}
 #form9 input, textarea{
   border-radius: 1rem;
   border: none;
+  
 }
 
 #sec9-sub{
