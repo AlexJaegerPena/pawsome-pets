@@ -5,6 +5,8 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* ---- section 1 ---- */
+
 body {
   margin-left: 10%;
   margin-right: 10%;
@@ -36,6 +38,7 @@ h3 {
   margin-left: 2vw;
 }
 
+
 .navbar {
   position: sticky;
   color: white;
@@ -49,6 +52,8 @@ h3 {
   justify-content: center;
   list-style: none;
   gap: 8vw;
+  font-weight: 600;
+  padding-bottom: 1vw;
 }
 
 .nav-li {
@@ -64,6 +69,51 @@ h3 {
 }
 
 /* ---- section 2 ---- */
+
+  font-size: 1.1vw;
+  transition: 0.4;
+}
+
+.nav-li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* ---- section 2 ---- */
+
+.section2-img {
+  width: 100%;
+}
+
+/* .section2-heading {
+  color: white;
+  font-size: 2.5vw;
+  margin-top: -20vw;
+  margin-left: 12vw;
+} */
+
+/* .section2-claim {
+  color: white;
+  font-size: 1.2vw;
+  margin-left: 12vw;
+  margin-top: 3vw;
+} */
+
+/* .section2-btn {
+  margin-top: 4vw;
+  margin-left: 15vw;
+  background-color: #3f7bb5;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  width: 18vw;
+  height: 2.1vw;
+  font-size: 0.9vw;
+  font-weight: 500;
+  transition: 0.4s;
+} */
+
+/* ---- alternative header ---- */
 
 .section2-heading {
   color: white;
@@ -85,6 +135,9 @@ h3 {
 a {
   text-decoration: none;
   color: inherit;
+  margin-left: 12vw;
+  margin-top: 3vw;
+
 }
 
 .section2-btn {
@@ -99,6 +152,12 @@ a {
   font-weight: 500;
   transition: 0.4s;
   filter: drop-shadow(2px 2px 2px #002953);
+  width: 18vw;
+  height: 2.1vw;
+  font-size: 0.9vw;
+  font-weight: 500;
+  transition: 0.4s;
+
 }
 
 .section2-btn:hover {
@@ -116,6 +175,9 @@ a {
   .section3-img {
     max-width: 00px;
   }
+
+  background-color: #488ccc;
+
 }
 
 /* ---- section 3 ---- */
@@ -171,12 +233,18 @@ a {
   width: 215px;
   height: auto;
   filter: drop-shadow(0px 1px 5px black);
+  transition: 0.1s ease;
 }
 
 .section4-cards {
   display: flex;
   gap: 20px;
   justify-content: center;
+}
+
+
+.img-section4:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 690px) {
@@ -223,6 +291,28 @@ a {
 
 .img-section5 {
   display: flex;
+
+
+  height: 100px;
+}
+
+.section5-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1120px) {
+  .section5-cards {
+    flex-wrap: wrap;
+  }
+  .section5-heading {
+    position: inherit;
+  }
+}
+
+.img-section5 {
+  display: flex;
   flex-direction: column;
   background-color: white;
   color: #002953;
@@ -248,6 +338,8 @@ a {
 
 .section5 button:hover {
   filter: drop-shadow(0px 1px 5px #427ab4);
+  color: #16569b;
+
 }
 
 .section5 .white-paw {
@@ -290,6 +382,12 @@ a {
 .section6 img {
   height: 200px;
   width: 200px;
+
+  transition: 0.1s ease;
+}
+
+.section6 img:hover {
+  transform: scale(1.1);
 }
 
 /* ---- section 7 ---- */
