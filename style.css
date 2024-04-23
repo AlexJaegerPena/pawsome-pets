@@ -415,12 +415,12 @@ address > #a3::before {
 }
 
 .section9-1 {
-  max-width: 30rem;
+ 
 }
 .section9-1 img {
-  max-width: 20rem;
-
-  margin: auto;
+  margin: 0 auto;
+  max-width: 30rem;
+  padding-left: 3rem;
 }
 
 .section9-2 {
