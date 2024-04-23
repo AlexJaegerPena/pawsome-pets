@@ -38,7 +38,6 @@ h3 {
   margin-left: 2vw;
 }
 
-
 .navbar {
   position: sticky;
   color: white;
@@ -69,7 +68,7 @@ h3 {
 }
 
 /* ---- section 2 ---- */
-
+.nav-li {
   font-size: 1.1vw;
   transition: 0.4;
 }
@@ -137,7 +136,6 @@ a {
   color: inherit;
   margin-left: 12vw;
   margin-top: 3vw;
-
 }
 
 .section2-btn {
@@ -157,7 +155,6 @@ a {
   font-size: 0.9vw;
   font-weight: 500;
   transition: 0.4s;
-
 }
 
 .section2-btn:hover {
@@ -177,7 +174,6 @@ a {
   }
 
   background-color: #488ccc;
-
 }
 
 /* ---- section 3 ---- */
@@ -242,7 +238,6 @@ a {
   justify-content: center;
 }
 
-
 .img-section4:hover {
   transform: scale(1.1);
 }
@@ -292,7 +287,6 @@ a {
 .img-section5 {
   display: flex;
 
-
   height: 100px;
 }
 
@@ -339,7 +333,6 @@ a {
 .section5 button:hover {
   filter: drop-shadow(0px 1px 5px #427ab4);
   color: #16569b;
-
 }
 
 .section5 .white-paw {
@@ -505,14 +498,13 @@ address > #a3::before {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- 
+
   color: rgb(64, 64, 231);
   font-size: 0.8rem;
   align-items: center;
 }
 
 .section9-1 {
- 
 }
 .section9-1 img {
   margin: 0 auto;
