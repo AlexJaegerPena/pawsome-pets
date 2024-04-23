@@ -527,7 +527,7 @@ address > #a3::before {
   text-decoration: none;
 }
 
-.address a:hover {
+.address li:hover {
   text-decoration: underline;
 }
 
@@ -537,6 +537,9 @@ address > #a3::before {
 .pages a {
   color: white;
   text-decoration: none;
+}
+.pages li{
+  padding: 0.5rem;
 }
 
 .pages a:hover {
@@ -574,6 +577,12 @@ address > #a3::before {
   font-size: 0.8em;
 }
 
+.pages a, .address a{
+  margin-left: 0;
+  margin-top: 0;
+
+}
+
 .section9 {
   display: flex;
   flex-wrap: wrap;
@@ -584,8 +593,7 @@ address > #a3::before {
   align-items: center;
 }
 
-.section9-1 {
-}
+
 .section9-1 img {
   margin: 0 auto;
   max-width: 30rem;
@@ -666,8 +674,13 @@ textarea {
   .section10 {
     grid-template-columns: 1fr 1fr;
   }
-  .footer-flex,
-  .foot-navigation {
+  .foot-navigation{
     grid-column: 1/5;
+  }
+  .pages {
+    display: flex;
+  }
+  #foot-sub {
+    display: inline;
   }
 }
