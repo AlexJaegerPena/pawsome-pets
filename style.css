@@ -61,6 +61,13 @@ h3 {
   filter: drop-shadow(1px 1px 1px #002953);
 }
 
+.nav-li a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 12vw;
+  margin-top: 3vw;
+}
+
 @media screen and (max-width: 1200px) {
   .nav-li {
     font-size: 1.4vw;
@@ -100,13 +107,6 @@ h3 {
   margin-top: 2vw;
   padding-bottom: 4vw;
   filter: drop-shadow(2px 2px 2px #002953);
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  margin-left: 12vw;
-  margin-top: 3vw;
 }
 
 .section2-btn {
