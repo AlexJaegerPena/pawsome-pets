@@ -502,20 +502,22 @@ address > #a3::before {
 }
 
 .section9 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
   color: rgb(64, 64, 231);
   font-size: 0.8rem;
+  align-items: center;
 }
 
 .section9-1 {
-  max-width: 30rem;
+ 
 }
 .section9-1 img {
-  width: 20rem;
-
-  margin: auto;
+  margin: 0 auto;
+  max-width: 30rem;
+  padding-left: 3rem;
 }
 
 .section9-2 {
