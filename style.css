@@ -53,7 +53,7 @@ h3 {
 
 .nav-li {
   /* font-size: 23px; */
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   transition: 0.4;
   filter: drop-shadow(1px 1px 1px #002953);
 }
@@ -110,6 +110,12 @@ a {
 .section2-btn:active {
   transform: translateY(1px) translateX(1px);
   box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 700px) {
+  .section3-img {
+    max-width: 00px;
+  }
 }
 
 /* ---- section 3 ---- */
