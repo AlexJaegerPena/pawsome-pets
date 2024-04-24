@@ -176,8 +176,7 @@ h3 {
     padding: 1vw 7vw 1vw 7vw;
     font-size: 2vw;
   }
-  & .section2-img {
-  }
+ 
 }
 
 @media screen and (max-width: 400px) {
@@ -196,16 +195,10 @@ h3 {
     max-width: 00px;
   }
 
-  background-color: #488ccc;
+ 
 }
 
-@media screen and (max-width: 700px) {
-  .section3-img {
-    max-width: 00px;
-  }
 
-  background-color: #488ccc;
-}
 
 /* ---- section 3 ---- */
 
@@ -242,7 +235,7 @@ h3 {
     max-width: 0px;
   }
   & .section3 h3 {
-    font-size: ;
+    
     text-align: center;
     margin-top: -7vw;
     margin-left: 0vw;
