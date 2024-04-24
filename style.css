@@ -712,3 +712,17 @@ textarea {
     margin-top: 1rem;
   }
 }
+
+.last-sec {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section89{
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #ffae12;
+}
